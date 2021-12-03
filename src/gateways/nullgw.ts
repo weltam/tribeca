@@ -4,9 +4,9 @@
 
 import * as _ from "lodash";
 import * as Q from "q";
-import Models = require("../../common/models");
-import Utils = require("../utils");
-import Interfaces = require("../interfaces");
+import Models = require("../common/models");
+import Utils = require("../service/utils");
+import Interfaces = require("../service/interfaces");
 import Config = require("../config");
 var uuid = require('node-uuid');
 
